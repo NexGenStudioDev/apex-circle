@@ -10,38 +10,25 @@
       "role": "Technical Lead"
     },
     {
-      "image": "raj-mehta.jpg",
+      "image": "https://www.shutterstock.com/image-photo/business-portrait-confident-businessman-entrepreneur-600nw-2480068229.jpg",
       "name": "Raj Mehta",
       "role": "Sponsorship Coordinator"
     },
     {
-      "image": "sneha-gupta.jpg",
+      "image": "https://thumbs.dreamstime.com/b/serious-indian-professional-business-man-office-portrait-serious-young-ambitious-indian-businessman-project-leader-dressed-367980912.jpg",
       "name": "Sneha Gupta",
       "role": "Design & Marketing"
     },
     {
-      "image": "arjun-singh.jpg",
+      "image": "https://img.freepik.com/free-photo/portrait-confident-young-businessman-with-his-arms-crossed_23-2148176206.jpg?semt=ais_hybrid&w=740&q=80",
       "name": "Arjun Singh",
       "role": "Workshop Facilitator"
     },
     {
-      "image": "neha-roy.jpg",
+      "image": "https://cdn.pixabay.com/photo/2024/11/08/05/28/man-9182458_1280.jpg",
       "name": "Neha Roy",
       "role": "Logistics Manager"
-    },
-    {
-      "image": "vikram-das.jpg",
-      "name": "Vikram Das",
-      "role": "Judging Coordinator"
-    },
-    {
-      "image": "aisha-khan.jpg",
-      "name": "Aisha Khan",
-      "role": "Community Outreach"
-    },
-    {
-      "image": "rohit-verma.jpg",
-      "name": "Rohit Verma",
-      "role": "Technical Support"
     }
+   
+  
   ]
