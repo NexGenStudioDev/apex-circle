@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Calcutta &lt;Hacks/&gt; 1.0 | APEX Circle</title>
+  <meta name="description" content="Calcutta &lt;Hacks/&gt; 1.0 by APEX Circle — a thrilling hackathon celebrating innovation, community, and creativity." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;700&family=Source+Code+Pro:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="icon" type="image/png" href="./images/logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    /* Code tag style */
+    .code-tag {
+      font-family: 'Source Code Pro', monospace;
+      background: #f5f5f5;
+      padding: 2px 6px;
+      border-radius: 4px;
+      color: #0ea5a4;
+      font-weight: 600;
+    }
+
+    /* Animated version 1.0 */
+    .version {
+      display: inline-block;
+      font-weight: 700;
+      color: #facc15;
+      font-size: 1.2em;
+      animation: pulse 1.5s infinite;
+      text-shadow: 0 0 5px #facc15, 0 0 10px #fbbf24;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+        text-shadow: 0 0 5px #facc15, 0 0 10px #fbbf24;
+      }
+      50% {
+        transform: scale(1.2);
+        text-shadow: 0 0 10px #facc15, 0 0 20px #fbbf24;
+      }
+    }
+
+    /* Hero image adjustments */
+    .hero-art {
+      position: relative;
+      text-align: center;
+    }
+
+    .hero-mural {
+      max-width: 380px;
+      margin: 0 auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="brand" href="#home" aria-label="Calcutta <Hacks/> 1.0 home">
+        <img class="brand-logo" src="images/logo.png" alt="Calcutta <Hacks/> 1.0 logo" />
+        <span class="brand-text">Calcutta <span class="code-tag">&lt;Hacks/&gt;</span> <span class="version">1.0</span></span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#stats">Stats</a></li>
+          <li><a href="#timeline">Timeline</a></li>
+          <li><a href="#prizes">Prizes</a></li>
+          <li><a href="#teams">Teams</a></li>
+          <li><a href="#sponsors">Sponsors</a></li>
+          <li><a href="#badge">Badge</a></li>
+          <li><a href="#faq">FAQs</a></li>
+        </ul>
+      </nav>
+      <div class="cta-buttons">
+        <a class="btn btn-outline" href="#" target="_blank" rel="noopener">Join Discord</a>
+        <a class="btn btn-primary" href="#" target="_blank" rel="noopener">Apply with Devfolio</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container hero-container">
+      <div class="hero-copy">
+        <div class="eyebrow">APEX Circle presents</div>
+        <h1 class="hero-title">
+          Calcutta <span class="code-tag">&lt;Hacks/&gt;</span> <span class="version">1.0</span>
+        </h1>
+        <p class="hero-subtitle">
+          A 24-hour hackathon where bold ideas meet vibrant community. Build. Ship. Celebrate.
+        </p>
+        <div class="hero-meta">
+          <div class="date">13-14th December 2025</div>
+          <div class="location">Techno India University Salt Lake Kolkata, India ·</div>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-lg" href="#prizes">Explore Prizes</a>
+          <a class="btn btn-ghost btn-lg" href="#timeline">See Timeline</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img class="hero-mural" src="images/logo.png" alt="Calcutta <Hacks/> 1.0 Logo" aria-hidden="true" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="section-head">
+        <h2>
+          What is Calcutta <span class="code-tag">&lt;Hacks/&gt;</span> <span class="version">1.0</span>?
+        </h2>
+        <p>
+          Calcutta <span class="code-tag">&lt;Hacks/&gt;</span> <span class="version">1.0</span> is Kolkata’s very own 24-hour hackathon, celebrating the vibrant fusion of code and culture. Set against the backdrop of a city renowned for its intellectual legacy, artistic soul, and unbreakable spirit, this event unites innovators, coders, and creators to build meaningful solutions in an energetic sprint.
+        </p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>Collaborate</h3>
+          <p>Form teams, meet mentors, and solve real-world challenges with peers.</p>
+        </div>
+        <div class="about-card">
+          <h3>Create</h3>
+          <p>Ship projects fast with support, resources, and an electrifying vibe.</p>
+        </div>
+        <div class="about-card">
+          <h3>Celebrate</h3>
+          <p>Showcase your builds, win prizes, and get noticed by partners.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section id="stats" class="section stats">
+    <div class="container stats-grid">
+      <div class="stat">
+        <div class="stat-value">5K+</div>
+        <div class="stat-label">Registrations</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">50+</div>
+        <div class="stat-label">Communities</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">25+</div>
+        <div class="stat-label">Sponsors</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">5+</div>
+        <div class="stat-label">Speakers</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline -->
+  <section id="timeline" class="section timeline">
+    <div class="container">
+      <div class="section-head">
+        <h2>Timeline</h2>
+        <div class="tabs" role="tablist">
+          <button class="tab active" data-tab="day1" role="tab" aria-selected="true">Day 1</button>
+          <button class="tab" data-tab="day2" role="tab" aria-selected="false">Day 2</button>
+        </div>
+      </div>
+      <div class="tab-panels">
+        <div class="panel active" id="day1" role="tabpanel">
+          <ul class="schedule">
+            <li><span>07:30</span> Check-in starts</li>
+            <li><span>08:00</span> Opening Ceremony</li>
+            <li><span>08:30</span> Hacking Starts</li>
+            <li><span>09:00</span> Team Building</li>
+            <li><span>12:00</span> Lunch Break</li>
+            <li><span>15:30</span> Fun Event 1</li>
+            <li><span>17:00</span> Hacker Hangout</li>
+            <li><span>20:00</span> Fun Event 2</li>
+          </ul>
+        </div>
+        <div class="panel" id="day2" role="tabpanel">
+          <ul class="schedule">
+            <li><span>08:00</span> Breakfast</li>
+            <li><span>09:30</span> Checkpoint Reviews</li>
+            <li><span>12:00</span> Lunch Break</li>
+            <li><span>14:00</span> Submissions Close</li>
+            <li><span>15:00</span> Demos & Judging</li>
+            <li><span>18:00</span> Closing Ceremony</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prizes -->
+  <section id="prizes" class="section prizes">
+    <div class="container">
+      <div class="section-head">
+        <h2>Prizes</h2>
+        <p>Total Prize Worth ₹ 1.5 Lakh+</p>
+      </div>
+      <div class="prize-grid">
+        <article class="prize-card gold">
+          <h3>Gold</h3>
+          <div class="amount">₹ 80K</div>
+          <ul>
+            <li>Goodies, T‑shirts</li>
+            <li>3 PPIs</li>
+            <li>Cash & 5 Domains</li>
+          </ul>
+        </article>
+        <article class="prize-card silver">
+          <h3>Silver</h3>
+          <div class="amount">₹ 45K</div>
+          <ul>
+            <li>Goodies, T‑shirts</li>
+            <li>3 PPIs</li>
+            <li>Cash & 5 Domains</li>
+          </ul>
+        </article>
+        <article class="prize-card bronze">
+          <h3>Bronze</h3>
+          <div class="amount">₹ 25K</div>
+          <ul>
+            <li>Goodies, T‑shirts</li>
+            <li>2 PPIs</li>
+            <li>Cash & 5 Domains</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teams -->
+  <section id="teams" class="section teams">
+    <div class="container">
+      <div class="section-head">
+        <h2>Our Teams</h2>
+        <p>Organizers, mentors, and volunteers who make Calcutta <span class="code-tag">&lt;Hacks/&gt;</span> <span class="version">1.0</span> possible.</p>
+      </div>
+      <div class="team-grid">
+      
+      </div>
+    </div>
+  </section>
+
+  <!-- Sponsors -->
+  <section id="sponsors" class="section sponsors">
+    <div class="container">
+      <div class="section-head">
+        <h2>Sponsors</h2>
+        <p>Thanks to our amazing partners for supporting innovation.</p>
+      </div>
+      <div class="sponsor-tiers">
+        <div class="tier">
+          <h3>Platinum</h3>
+          <div class="logos">
+            <div class="logo-box">Your Logo</div>
+            <div class="logo-box">Your Logo</div>
+          </div>
+        </div>
+        <div class="tier">
+          <h3>Gold</h3>
+          <div class="logos">
+            <div class="logo-box">Your Logo</div>
+            <div class="logo-box">Your Logo</div>
+            <div class="logo-box">Your Logo</div>
+          </div>
+        </div>
+        <div class="tier">
+          <h3>Silver</h3>
+          <div class="logos">
+            <div class="logo-box">Your Logo</div>
+            <div class="logo-box">Your Logo</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Badge Maker -->
+  <section id="badge" class="section badge-maker">
+    <div class="container">
+      <div class="section-head">
+        <h2>Create Your Badge</h2>
+        <p>Upload a photo and add your name. Share it on socials for bonus points!</p>
+      </div>
+      <div class="badge-grid">
+        <div class="badge-preview">
+          <canvas id="badgeCanvas" width="640" height="800" aria-label="Badge preview"></canvas>
+        </div>
+        <form class="badge-form" id="badgeForm">
+          <label class="form-field">
+            <span>Your Name</span>
+            <input id="badgeName" type="text" placeholder="Type your name" maxlength="28" required />
+          </label>
+          <label class="form-field">
+            <span>Upload Photo</span>
+            <input id="badgePhoto" type="file" accept="image/*" />
+          </label>
+          <div class="form-row">
+            <button type="button" class="btn btn-outline" id="clearBadge">Clear</button>
+            <button type="button" class="btn btn-primary" id="downloadBadge">Download</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQs -->
+  <section id="faq" class="section faq">
+    <div class="container">
+      <div class="section-head">
+        <h2>FAQs</h2>
+      </div>
+      <div class="accordion" id="faqAccordion">
+        <details>
+          <summary>What is Calcutta <span class="code-tag">&lt;Hacks/&gt;</span> 1.0?</summary>
+          <p>A 24-hour hackathon organized by APEX Circle, focused on innovation and community.</p>
+        </details>
+        <details>
+          <summary>Who can participate?</summary>
+          <p>Students and professionals alike. Beginners welcome!</p>
+        </details>
+        <details>
+          <summary>How do I register?</summary>
+          <p>Applications open soon. Follow our Discord for updates.</p>
+        </details>
+        <details>
+          <summary>Is there a fee?</summary>
+          <p>No registration fee. Participation is free.</p>
+        </details>
+        <details>
+          <summary>Can I participate remotely?</summary>
+          <p>Yes. We support hybrid participation.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="images/logo.png" alt="Calcutta <Hacks/> 1.0" />
+        <div>
+          <strong>Calcutta <span class="code-tag">&lt;Hacks/&gt;</span> <span class="version">1.0</span></strong>
+          <div>Organized by APEX Circle</div>
+        </div>
+      </div>
+      <nav class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#prizes">Prizes</a>
+        <a href="#sponsors">Sponsors</a>
+        <a href="#faq">FAQs</a>
+      </nav>
+      <div class="footer-socials">
+        <a href="#" aria-label="Discord">Discord</a>
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Twitter/X">Twitter/X</a>
+      </div>
+    </div>
+    <div class="container tiny">© 2025 APEX Circle · All rights reserved</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

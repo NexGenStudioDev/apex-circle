@@ -1,0 +1,47 @@
+[
+    {
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F2379005%2Fpexels-photo-2379005.jpeg%3Fcs%3Dsrgb%26dl%3Dpexels-italo-melo-2379005.jpg%26fm%3Djpg&f=1&nofb=1&ipt=cfef7bfe074df19f6b0edea04b705412c8d8af00a66fabeace49b056a60cb9b0",
+      "name": "Anish Sharma",
+      "role": "Lead Organizer"
+    },
+    {
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F031%2F721%2F689%2Flarge_2x%2Fai-generated-studio-portrait-of-handsome-indian-man-on-colour-background-photo.jpg&f=1&nofb=1&ipt=bc9df76142ac27bf323f2471d10a9c3eacb9e35802ed305899adc6c6f0c33ce4",
+      "name": "Priya Patel",
+      "role": "Technical Lead"
+    },
+    {
+      "image": "raj-mehta.jpg",
+      "name": "Raj Mehta",
+      "role": "Sponsorship Coordinator"
+    },
+    {
+      "image": "sneha-gupta.jpg",
+      "name": "Sneha Gupta",
+      "role": "Design & Marketing"
+    },
+    {
+      "image": "arjun-singh.jpg",
+      "name": "Arjun Singh",
+      "role": "Workshop Facilitator"
+    },
+    {
+      "image": "neha-roy.jpg",
+      "name": "Neha Roy",
+      "role": "Logistics Manager"
+    },
+    {
+      "image": "vikram-das.jpg",
+      "name": "Vikram Das",
+      "role": "Judging Coordinator"
+    },
+    {
+      "image": "aisha-khan.jpg",
+      "name": "Aisha Khan",
+      "role": "Community Outreach"
+    },
+    {
+      "image": "rohit-verma.jpg",
+      "name": "Rohit Verma",
+      "role": "Technical Support"
+    }
+  ]
