@@ -69,6 +69,7 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 14px 0;
+  width: 90%;
 }
 
 .brand {
@@ -608,6 +609,19 @@ a {
   /* Remove fixed height that can cause issues */
   min-height: 50vh;
   height: auto;
+}
+
+.Price_Logo {
+  display: flex;
+  width: 100%;
+  height: 13vh;
+ 
+  margin-bottom: 12px;
+}
+
+.Price_Logo img{
+   width: 40%;
+   height: 100%;
 }
 
 .prize-grid {
